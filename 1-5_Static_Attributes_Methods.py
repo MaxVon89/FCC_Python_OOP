@@ -67,7 +67,7 @@ class BankAccount_US:
     @staticmethod
     def isInterestValid(val):
         return 0<=val<=5
-    
+
 
 
 ba2 = BankAccount_US('Monica', 3000000)
@@ -76,3 +76,4 @@ ba2.deposit(20000)
 
 print(BankAccount_US.isInterestValid(-1))
 print(BankAccount_US.isInterestValid(5))
+print(BankAccount_US.isInterestValid(10))
